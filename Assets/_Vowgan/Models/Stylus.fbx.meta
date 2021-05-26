@@ -4,11 +4,21 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Stylus
+    100004: Tip
     400000: //RootNode
+    400002: Stylus
+    400004: Tip
     2100000: phong3
+    2100002: No Name
     2300000: //RootNode
+    2300002: Stylus
+    2300004: Tip
     3300000: //RootNode
+    3300002: Stylus
+    3300004: Tip
     4300000: Stylus
+    4300002: Tip
   externalObjects: {}
   materials:
     importMaterials: 1
