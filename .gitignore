@@ -3,7 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /[Ll]ibrary/
-/[Tt]emp/
+/[Tt]emp/'
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
@@ -70,8 +70,17 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-.idea/*
-ProjectSettings/Packages/com.unity.probuilder/Settings.json
-Assets/Plugins
-Assets/_LastBuild.meta
-Assets/Plugins.meta
+/Assets/CyanEmu/
+/Assets/CyanEmu.meta
+/Assets/Plugins/VRCSDK
+/Assets/Plugins/VRCSDK.meta
+/Assets/Udon/
+/Assets/Udon.meta
+/Assets/UdonSharp/
+/Assets/UdonSharp.meta
+/Assets/VRChat Examples
+/Assets/VRChat Examples.meta
+/Assets/VRCSDK/
+/Assets/VRCSDK.meta
+/Assets/VRWorldToolkit
+/Assets/VRWorldToolkit.meta
