@@ -69,18 +69,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-
-/Assets/CyanEmu/
-/Assets/CyanEmu.meta
-/Assets/Plugins/VRCSDK
-/Assets/Plugins/VRCSDK.meta
-/Assets/Udon/
-/Assets/Udon.meta
-/Assets/UdonSharp/
-/Assets/UdonSharp.meta
-/Assets/VRChat Examples
-/Assets/VRChat Examples.meta
-/Assets/VRCSDK/
-/Assets/VRCSDK.meta
-/Assets/VRWorldToolkit
-/Assets/VRWorldToolkit.meta
