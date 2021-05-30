@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: f123e2098a55bda4eabf1c7179037b7e, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.746247, g: 0.7494923, b: 0.746247, a: 1}
+  m_IndirectSpecularColor: {r: 0.7466897, g: 0.7489324, b: 0.7466897, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -88,7 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000000, guid: 8a492e48545039a4faa796f037b04a60,
+  m_LightingDataAsset: {fileID: 112000000, guid: 1d9114a8d6d9dbf4db7d8cc2b537a21f,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -356,7 +356,7 @@ MonoBehaviour:
   renderSettingsGIBackFaceWeight: 0
   renderSettingsTileSize: 2048
   renderSettingsPriority: 2
-  renderSettingsTexelsPerUnit: 20
+  renderSettingsTexelsPerUnit: 16
   renderSettingsForceRefresh: 1
   renderSettingsForceRebuildGeometry: 1
   renderSettingsPerformRendering: 1
@@ -370,10 +370,10 @@ MonoBehaviour:
   renderSettingsEncodeMode: 0
   renderSettingsOverwriteWarning: 0
   renderSettingsAutoAtlas: 1
-  renderSettingsUnwrapUVs: 1
+  renderSettingsUnwrapUVs: 0
   renderSettingsForceDisableUnwrapUVs: 0
   renderSettingsMaxAutoResolution: 4096
-  renderSettingsMinAutoResolution: 256
+  renderSettingsMinAutoResolution: 512
   renderSettingsUnloadScenes: 1
   renderSettingsAdjustSamples: 1
   renderSettingsGILODMode: 0
@@ -399,7 +399,7 @@ MonoBehaviour:
   renderSettingsTexelsMask: 1
   renderSettingsTexelsDir: 1
   renderSettingsShowDirWarning: 0
-  renderSettingsRenderDirMode: 4
+  renderSettingsRenderDirMode: 0
   renderSettingsShowCheckerSettings: 0
   renderSettingsSamplesWarning: 1
   renderSettingsPrefabWarning: 1
@@ -424,7 +424,7 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 18
+  lastBakeTime: 17
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   lightUIDs: ebdecec3ee8fe568
@@ -446,8 +446,8 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-    intensity: 1
+    color: {r: 1, g: 0.9772204, b: 0.9150943, a: 1}
+    intensity: 1.2
     range: 0
     radius: 0.01
     samples: 16
@@ -490,8 +490,8 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   implicitGroups:
-  - {fileID: 885527938}
-  - {fileID: 2143339547}
+  - {fileID: 1664378499}
+  - {fileID: 954555519}
   implicitGroupedObjects:
   - {fileID: 0}
   - {fileID: 211330756}
@@ -515,32 +515,29 @@ MonoBehaviour:
   lightmapHasColor: 0101
   lightmapHasMask: 0000
   lightmapHasDir: 0000
-  lightmapHasRNM: 0101
+  lightmapHasRNM: 0001
   modifiedAssetPathList:
   - Assets/_Vowgan/Models/ArtToaster.fbx
   modifiedAssets:
   - meshName:
     - Structure
-    padding: 05000000
+    padding: 0e000000
     unwrapper: 00000000
   debugTex: {fileID: 0}
   debugRT: {fileID: 0}
   maps:
-  - {fileID: 2800000, guid: 02ca5ab676355ea49b44b3dba1cf0f91, type: 3}
+  - {fileID: 2800000, guid: bb957c68d3a76254886833c63c4a7118, type: 3}
   masks: []
   dirMaps: []
-  rnmMaps0:
-  - {fileID: 2800000, guid: 7aa6df489949c2b46a12e134f6cf9b91, type: 3}
-  rnmMaps1:
-  - {fileID: 2800000, guid: f4319de6fa84f6e46aa0c94f428ec752, type: 3}
-  rnmMaps2:
-  - {fileID: 2800000, guid: 4e098899d4f3c8f40be3e6118cd1e48e, type: 3}
-  mapsMode: 03000000
+  rnmMaps0: []
+  rnmMaps1: []
+  rnmMaps2: []
+  mapsMode: 
   bakedRenderers:
   - {fileID: 211330758}
   bakedIDs: 00000000
   bakedScaleOffset:
-  - {x: 1.0119209, y: 1.0131725, z: -0.0052501545, w: -0.005256648}
+  - {x: 1.0323251, y: 1.0220212, z: -0.014177694, w: -0.014036182}
   bakedVertexOffset: ffffffff
   bakedVertexColorMesh:
   - {fileID: 0}
@@ -1277,45 +1274,6 @@ Transform:
   m_Father: {fileID: 4219897}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &885527938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: probes
-  m_EditorClassIdentifier: 
-  resolution: 256
-  bitmask: 1
-  id: 1
-  sortingID: 0
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 48
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 1
-  mode: 2
-  renderMode: 1000
-  renderDirMode: 5
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &889062044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,6 +1306,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &954555519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Demo_LM0
+  m_EditorClassIdentifier: 
+  resolution: 512
+  bitmask: 1
+  id: 0
+  sortingID: 1
+  isImplicit: 1
+  area: 1183.0773
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: Demo
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &1121724020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,8 +1373,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.9772204, b: 0.9150943, a: 1}
+  m_Intensity: 1.2
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1430,8 +1427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74ce2158ae608549902afb4112fd042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  intensity: 1
+  color: {r: 1, g: 0.9772204, b: 0.9150943, a: 1}
+  intensity: 1.2
   shadowSpread: 0.01
   samples: 16
   bitmask: 1
@@ -1585,6 +1582,45 @@ Transform:
   m_Father: {fileID: 1225177321}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1664378499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: probes
+  m_EditorClassIdentifier: 
+  resolution: 512
+  bitmask: 1
+  id: 1
+  sortingID: 0
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 48
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 1
+  mode: 2
+  renderMode: 1000
+  renderDirMode: 5
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &1890531784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,45 +1694,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &2143339547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Demo_LM0
-  m_EditorClassIdentifier: 
-  resolution: 512
-  bitmask: 1
-  id: 0
-  sortingID: 1
-  isImplicit: 1
-  area: 1183.0773
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: Demo
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1001 &2577402751689041199
 PrefabInstance:
   m_ObjectHideFlags: 0

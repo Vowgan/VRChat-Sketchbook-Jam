@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Plaster
-  m_Shader: {fileID: 4800000, guid: 3334d0a534d2dac45b2c1a9a7e0a6c64, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1380ac5c516da614f98c37af77ddd6b4, type: 3}
   m_ShaderKeywords: BAKERY_SH BAKERY_SHNONLINEAR _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -86,6 +86,7 @@ Material:
     - _BAKERY_VERTEXLMSH: 0
     - _BAKERY_VOLUME: 0
     - _BumpScale: 1
+    - _CullMode: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
