@@ -3,6 +3,7 @@ using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
+using VRC.Udon.Common.Interfaces;
 
 public class PixartCanvas : UdonSharpBehaviour
 {
@@ -31,6 +32,11 @@ public class PixartCanvas : UdonSharpBehaviour
     }
 
     public void Clear()
+    {
+        SendCustomNetworkEvent(NetworkEventTarget.All, nameof(NetworkClear));
+    }
+
+    public void NetworkClear()
     {
         cam.backgroundColor = Color.black;
         cam.clearFlags = CameraClearFlags.SolidColor;
