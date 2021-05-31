@@ -8,7 +8,7 @@ using VRC.Udon;
 public class ColorPalette : UdonSharpBehaviour
 {
     
-    // TODO: Color palette selection/saving (Prolly Not Here)
+    // TODO: Color palette selection/saving
     
     public Color[] paletteColors = new Color[42];
 

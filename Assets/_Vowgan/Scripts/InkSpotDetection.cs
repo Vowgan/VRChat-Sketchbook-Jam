@@ -17,7 +17,7 @@ public class InkSpotDetection : UdonSharpBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name.Contains("Palette"))
+        if (other.name.Contains("Color"))
         {
             cam.enabled = true;
         }
@@ -25,7 +25,7 @@ public class InkSpotDetection : UdonSharpBehaviour
     
     private void OnTriggerExit(Collider other)
     {
-        if (other.name.Contains("Palette"))
+        if (other.name.Contains("Color"))
         {
             cam.enabled = false;
         }
