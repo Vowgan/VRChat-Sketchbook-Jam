@@ -17,17 +17,24 @@ public class InkSpotDetection : UdonSharpBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name.Contains("Color"))
+        if (Networking.IsOwner(gameObject))
         {
-            cam.enabled = true;
+            if (other.name.Contains("Color"))
+            {
+                cam.enabled = true;
+            }
         }
+        
     }
     
     private void OnTriggerExit(Collider other)
     {
-        if (other.name.Contains("Color"))
+        if (Networking.IsOwner(gameObject))
         {
-            cam.enabled = false;
+            if (other.name.Contains("Color"))
+            {
+                cam.enabled = false;
+            }
         }
     }
 }

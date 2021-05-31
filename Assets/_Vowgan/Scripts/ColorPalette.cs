@@ -98,11 +98,7 @@ public class ColorPalette : UdonSharpBehaviour
     
     public void modifyColor()
     {
-        Color penColor = penProxy.onePixel.GetPixel(0, 0);
-        
-        Debug.Log( $"Red + {penColor.r * 255}" );
-        Debug.Log( $"Green + {penColor.g * 255}" );
-        Debug.Log( $"Blue + {penColor.b * 255}" );
+        Color penColor = penProxy.syncedColor;
         
         redSlider.value = penColor.r;
         greenSlider.value = penColor.g;
