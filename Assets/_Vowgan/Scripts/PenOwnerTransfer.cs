@@ -6,6 +6,7 @@ using VRC.Udon;
 
 public class PenOwnerTransfer : UdonSharpBehaviour
 {
+    public GameObject penCam;
     public GameObject tip;
     void Start()
     {
@@ -14,6 +15,8 @@ public class PenOwnerTransfer : UdonSharpBehaviour
 
     public override void OnPickup()
     {
+        Networking.SetOwner(Networking.LocalPlayer, penCam);
         Networking.SetOwner(Networking.LocalPlayer, tip);
+        
     }
 }
